@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Activity 1: Basic HTML Bio</title>
-  </head>
-    
-  <body>
-    <h1>Andi Muskaj</h1>
-    <img src="https://media.licdn.com/dms/image/C4E03AQH-ArKYKhJHQA/profile-displayphoto-shrink_200_200/0?e=1559174400&amp;v=beta&amp;t=8izxV_qw2IWnUaWuM_zUTYc9r9EIsmVaQBGjK9iptLY" alt="photo" height="128" width="128">
-    <p>My name is Andi</p>
-    <p>I'm a Business Analyst</p>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/muskaj/" target="_blank">LinkedIn</a></li>
-    </ul>
-    <table>
-      <tr>
-        <th>movie</th>
-        <th>books</th>
-        <th>activites</th>
-      </tr>
-      <tr>
-        <td>movie1</td>
-        <td>books1</td>
-        <td>activites1</td>
-      </tr>
-      
-    </table>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Andi's Projects</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Andi Muskaj</h2>
+        <img id="bio-image" src="https://media.licdn.com/dms/image/C4E03AQH-ArKYKhJHQA/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=8izxV_qw2IWnUaWuM_zUTYc9r9EIsmVaQBGjK9iptLY" alt="Andi Muskaj">
+      </section>
+      <p>This is a paragraph about me.</p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">andi.muskaj@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">andimuskaj872</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
+
+</body>
 
 </html>
